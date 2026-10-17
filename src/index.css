@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-violet-50: #fef2f2;
+  --color-violet-100: #fee2e2;
+  --color-violet-200: #fecaca;
+  --color-violet-300: #fca5a5;
+  --color-violet-400: #f87171;
+  --color-violet-500: #ef4444;
+  --color-violet-600: #800000; /* Maroon primary theme color */
+  --color-violet-700: #6b0000; /* Darker Maroon */
+  --color-violet-800: #550000;
+  --color-violet-900: #450000;
+  --color-violet-950: #2c0000;
+
+  --color-indigo-50: #fff5f5;
+  --color-indigo-100: #ffe3e3;
+  --color-indigo-200: #ffc9c9;
+  --color-indigo-500: #b91c1c;
+  --color-indigo-600: #991b1b;
+  --color-indigo-700: #7f1d1d;
+  --color-indigo-800: #6b1d1d;
+  --color-indigo-900: #4c1d1d;
+}
+
+@variant dark (&:where(.dark, .dark *));
+
+html {
+  scrollbar-gutter: stable;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "ShopVista",
+  "description": "A responsive, feature-rich e-commerce store in Pakistani Rupees (PKR) featuring an interactive categories sidebar, local auth validations, a dynamic shopping cart, product filters, and highly polished dark/light themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
